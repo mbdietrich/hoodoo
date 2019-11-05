@@ -21,7 +21,7 @@ module Hoodoo
       # Time To Live: Number of seconds for which a session remains valid
       # after being saved.
       #
-      TTL = 172800 # 48 hours
+      TTL = 300 # 5 minutes
 
       # A Session must have its own UUID.
       #
